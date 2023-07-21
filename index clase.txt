@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Moviliarios de Oficina</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+	<header>
+		<h1>Venta de Moviliario de Oficina</h1>
+			<nav>
+				<ul>
+					<li><a href="#">Inicio</a></li>
+					<li><a href="#">Productos</a></li>
+					<li><a href="#">Contacto</a></li>
+				</ul>
+			</nav>
+	</header>
+
+<main>
+	<section>
+		<h2>Productos Destacados</h2>	
+		<div class="lista-productos">
+			<!-- ********************************************** -->
+			<!-- Primer producto con su descripción -->
+			<div class="productos">
+				<img src="img/escritorio.webp" alt="Escritorio1"/>
+				<h3>Escritorio de Lujo</h3>
+				<!-- Descripción del Producto -->
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+				</p>
+				<button>Agregar al Carrito</button>	
+			</div>
+			<!-- ********************************************* -->
+
+			<!-- ********************************************** -->
+			<!-- Primer producto con su descripción -->
+			<div class="productos">
+				<img src="img/silla.webp" alt="Silla"/>
+				<h3>Silla de Escritorio</h3>
+				<!-- Descripción del Producto -->
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+				</p>
+				<button>Agregar al Carrito</button>	
+			</div>
+			<!-- ********************************************* -->
+
+			<!-- ********************************************** -->
+			<!-- Primer producto con su descripción -->
+			<div class="productos">
+				<img src="img/archivo.jpg" alt="Archivo"/>
+				<h3>Archivo de 4 Gavetas</h3>
+				<!-- Descripción del Producto -->
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+				</p>
+				<button>Agregar al Carrito</button>	
+			</div>
+			<!-- ********************************************* -->
+
+			<!-- ********************************************** -->
+			<!-- Primer producto con su descripción -->
+			<div class="productos">
+				<img src="img/escritorio2.png" alt="Escritorio2"/>
+				<h3>Escritorio de Metal</h3>
+				<!-- Descripción del Producto -->
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+				</p>
+				<button>Agregar al Carrito</button>	
+			</div>
+			<!-- ********************************************* -->
+
+			<!-- ********************************************** -->
+			<!-- Primer producto con su descripción -->
+			<div class="productos">
+				<img src="img/impresora.jfif" alt="Impresora"/>
+				<h3>Impresora Multifuncional</h3>
+				<!-- Descripción del Producto -->
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+				</p>
+				<button>Agregar al Carrito</button>	
+			</div>
+			<!-- ********************************************* -->
+
+			<!-- ********************************************** -->
+			<!-- Primer producto con su descripción -->
+			<div class="productos">
+				<img src="img/librero.jpg" alt="Librero"/>
+				<h3>Librero de Oficina</h3>
+				<!-- Descripción del Producto -->
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+				</p>
+				<button>Agregar al Carrito</button>	
+			</div>
+			<!-- ********************************************* -->
+		</div>
+	</section>
+</main>
+
+<footer>
+	<div class="footer-links">
+		<ul>
+			<li><a href="#">Acerca de Nosotros</a></li>
+			<li><a href="#">Políticas de Privacidad</a></li>
+			<li><a href="#">Términos y Condiciones</a></li>
+			<li><a href="#">Preguntas Frecuentes</a></li>
+		</ul>
+	</div>
+	<div class="redes-links">
+		<li><a href="#">
+			<img src="icons/fb-250.png" alt="Facebook"></a>
+		</li>
+		<li><a href="#">
+			<img src="icons/tw-250.png" alt="Twitter"></a>
+		</li>
+		<li><a href="#">
+			<img src="icons/ins-250.png" alt="Instagram"></a>
+		</li>
+	</div>
+	<div class="info-contactos">
+		<p>Correo Electrónico: ventas@ejemplo.com</p>
+		<p>Teléfono: +504 9999-9999</p>
+		<p>Dirección: 1234 Calle Principal, Ciudad, Departamento, País</p>
+	</div>
+</footer>
+
+
+</body>
+</html>

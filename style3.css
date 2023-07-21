@@ -1,0 +1,96 @@
+/* Estilos generales */
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Encabezado */
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Contenido principal */
+
+main {
+  padding: 20px;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+/* Cuadrícula de productos */
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.product {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+.product-img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+}
+
+.product-name {
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.product-description {
+  margin: 10px 0;
+}
+
+.buy-btn {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.buy-btn:hover {
+  background-color: #666;
+}

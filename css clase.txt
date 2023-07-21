@@ -1,0 +1,92 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+		font-family: Arial, sans-serif;
+		background-color: #f1f1f1;
+}	
+
+header{
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+nav ul{
+	background-color: #333;
+	list-style-type: none;
+	widows: 100%;
+	text-align: center;
+}
+nav li{
+	display: inline-flex ;
+}
+nav a{
+	color: white;
+	text-decoration: none;
+	width: 150px;
+	padding: 10px;
+}
+
+nav a:hover{
+	background-color: #15BEB2;
+}
+
+main{
+	width: 1200px;
+	margin: 20px auto;
+	padding: 0 20px;
+}
+
+section{
+	margin-bottom: 50px;
+}
+
+.lista-productos{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.productos{
+	width: 30%;
+	background-color: #fff;
+	padding: 20px;
+	margin-bottom: 20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	transition: box-shadow 0.8s ease-in-out ;
+}
+.productos:hover{
+	box-shadow: 0 0 50px rgba(0, 0, 0, 0.3);
+}
+.productos img{
+	display: block;
+	margin: 0 auto 10px;
+	transition: transform 0.3s ease-in-out ;
+	width: 190px;
+	height: 190px;
+}
+.productos:hover img{
+	transform: scale(1.1);	
+}
+.productos p{
+	font-size: 0.9em;
+	line-height: 1.5;
+	margin-bottom: 10px;
+}
+.productos button{
+	display: block;
+	margin: 0 auto;
+	padding: 10px;
+	background-color: #333;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	transition: background-color 0.3s ease-in-out ;
+}
+.productos button:hover{
+	background-color: gray;
+}
